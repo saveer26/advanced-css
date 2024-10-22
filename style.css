@@ -1,0 +1,26 @@
+/* Gradient */
+body {
+  background: rgb(255,162,0);
+  background: linear-gradient(90deg, rgba(255,162,0,1) 0%, rgba(16,34,187,1) 100%);
+}
+/* shadows */
+div {
+  text-shadow: 20px 20px 5px;
+}
+/*make your own font*/
+@font-face{
+  font-family: "drip font";
+  src: url("drippy.ttf");
+}
+
+
+h1 {
+  font-family: "drip font";
+}
+/* rounded quaters and background image */
+#thing {
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+  background-color: blue;
+}
